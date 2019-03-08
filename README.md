@@ -6,16 +6,16 @@ Bu aciklama dogrultusunda yazilan kod  ve ilgili kodun guvercin yuvasi prensibin
 #{1,2,3,...,24}  icerisinde toplamlari 25 olan 13 ikili sayi secildiginde
 #secilen ikili sayilardan 2 tanesinin ayni olacagini ispatlayiniz.
 
-hole=0 # yuva sayisi
-pigeon=13 #güvercin saiyisi
-for i in range (1,25): 
-for j in range (1,25):
-if j>i: #listede secilen elemanlarin tekrarinin önlenmesi
- break
- elif i+j==25: 
- hole = hole+1
-if pigeon>hole: # guvercin sayisi yuva sayisindan buyuk oldugunda mutlaka bir yuvada iki guvercin bulunur prensibine gore.
- print ("pigeon=",pigeon, "hole=",hole,"\n'pigeon>hole '  two of the pairs selected according to the result are the same.")
+                     hole=0 # yuva sayisi
+                    pigeon=13 #güvercin saiyisi
+                     for i in range (1,25): 
+                     for j in range (1,25):
+                     if j>i: #listede secilen elemanlarin tekrarinin önlenmesi
+                       break
+                    elif i+j==25: 
+                      hole = hole+1
+                if pigeon>hole: # guvercin sayisi yuva sayisindan buyuk oldugunda mutlaka bir yuvada iki guvercin bulunur prensibine gore.
+                print ("pigeon=",pigeon, "hole=",hole,"\n'pigeon>hole '  two of the pairs selected according to the result are the same.")
  
  
 
