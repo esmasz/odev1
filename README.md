@@ -3,8 +3,10 @@
 güvercin yuvasi ilkesine göre; N ve k pozitif tamsayilar olsun ve N > k olmak uzere N nesne k kutuya yerlestirildiginde oyle bir kutu vardır ki o kutuda birden cok nesne bulunmak zorundadır.
 Bu aciklama dogrultusunda yazilan kod  ve ilgili kodun guvercin yuvasi prensibine gore ispati verilmektedir.
 
-#{1,2,3,...,24}  icerisinde toplamlari 25 olan 13 ikili sayi secildiginde
-#secilen ikili sayilardan 2 tanesinin ayni olacagini ispatlayiniz.
+             
+             
+             #{1,2,3,...,24}  icerisinde toplamlari 25 olan 13 ikili sayi secildiginde
+              #secilen ikili sayilardan 2 tanesinin ayni olacagini ispatlayiniz.
 
                      hole=0 # yuva sayisi
                     pigeon=13 #güvercin saiyisi
