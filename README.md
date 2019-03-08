@@ -8,16 +8,16 @@ Bu aciklama dogrultusunda yazilan kod  ve ilgili kodun guvercin yuvasi prensibin
 
 hole=0 # yuva sayisi
 pigeon=13 #güvercin saiyisi
-
 for i in range (1,25): 
-    for j in range (1,25):
-        if j>i: #listede secilen elemanlarin tekrarinin önlenmesi
-            break
-        elif i+j==25: 
-            hole = hole+1
-
+for j in range (1,25):
+if j>i: #listede secilen elemanlarin tekrarinin önlenmesi
+ break
+ elif i+j==25: 
+ hole = hole+1
 if pigeon>hole: # guvercin sayisi yuva sayisindan buyuk oldugunda mutlaka bir yuvada iki guvercin bulunur prensibine gore.
-    print ("pigeon=",pigeon, "hole=",hole,"\n'pigeon>hole '  two of the pairs selected according to the result are the same.")
+ print ("pigeon=",pigeon, "hole=",hole,"\n'pigeon>hole '  two of the pairs selected according to the result are the same.")
+ 
+ 
 
 Ornek kapsamında 1,2,..,24 arasinda listelenen sayilarin arasindan birbirini tekrarlamayan ikili gruplar olusturulmus ve iclerinden 13 adet ikili secilmesi istenmistir.
 
